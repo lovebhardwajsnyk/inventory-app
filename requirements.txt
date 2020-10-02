@@ -77,3 +77,5 @@ redis==2.10.1
 requests==2.20.0
 pyOpenSSL==18.0.0
 ckantoolkit==0.0.3
+
+urllib3>=1.25.9 # not directly required, pinned by Snyk to avoid a vulnerability
